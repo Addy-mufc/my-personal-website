@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Aditya Kiran's Portfolio</title>
+      <title>Aditya Kiran&apos;s Portfolio</title>
         <meta name="description" content="Explore Aditya Kiran's projects, experience, and skills on his personal portfolio website." />
         <link rel="icon" href="/favicon.ico" />
       </head>
