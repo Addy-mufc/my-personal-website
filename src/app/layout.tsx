@@ -15,13 +15,11 @@ export default function RootLayout({
       </head>
       <body className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col">
         <header className="py-4 fixed w-full z-10 bg-transparent">
-        <nav className="container mx-auto px-4 flex justify-between items-center">
-        <Link href="/my-personal-website/" className="text-xl font-bold hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Home</Link>
-  <div className="flex">
-    <Link href="/my-personal-website/experience" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Experience</Link>
-    <Link href="/my-personal-website/projects" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Projects</Link>
-    <Link href="/my-personal-website/contact" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Contact</Link>
-  </div>
+        <nav className="container mx-auto px-4 flex justify-between items-center"> <Link href="/" className="text-xl font-bold hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Home</Link>
+          <div className="flex">
+            <Link href="/experience" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Experience</Link>
+            <Link href="/projects" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Projects</Link>
+            <Link href="/contact" className="px-4 hover:text-gray-600 dark:hover:text-gray-300 transition-colors">Contact</Link></div>
         </nav>
         </header>
         <main className="flex-grow">{children}</main>
