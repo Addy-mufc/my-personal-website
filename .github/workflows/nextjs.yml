@@ -25,3 +25,8 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: Addy-mufc/github-pages-deploy-action@v4
+        with:
+          folder: out
