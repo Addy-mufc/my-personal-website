@@ -35,9 +35,9 @@ export default function Portfolio() {
           Welcome to my digital space.
         </p>
         <div className="flex space-x-4 justify-center">
-          <AnimatedButton href="/my-personal-website/experience">Experience</AnimatedButton>
-          <AnimatedButton href="/my-personal-website/projects">Projects</AnimatedButton>
-          <AnimatedButton href="/my-personal-website/contact">Contact</AnimatedButton>
+          <AnimatedButton href="/experience">Experience</AnimatedButton>
+          <AnimatedButton href="/projects">Projects</AnimatedButton>
+          <AnimatedButton href="/contact">Contact</AnimatedButton>
         </div>
       </div>
       <div className={`absolute bottom-4 text-sm text-gray-500 transition-opacity duration-1000 ${showCreationInfo ? 'opacity-100' : 'opacity-0'}`}>
